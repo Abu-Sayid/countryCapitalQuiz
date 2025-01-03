@@ -7,13 +7,13 @@ Score tracking and feedback at the end.
 
 To launch your react project in your browser,
 
-Install postgreSQL
+1. Install postgreSQL
 
-Set password as 12345678
+2. Set password as 12345678
 
-Create database world
+3. Create database world
 
-Run below query in Query tool to create capitals table:
+4. Run below query in Query tool to create capitals table:
 
     CREATE TABLE capitals(
 
@@ -25,12 +25,14 @@ Run below query in Query tool to create capitals table:
 
     );
 
-Import capitals.csv with Header toggled on 
+5. Import capitals.csv with Header toggled on
 
-Download Node.js
+6. Download Node.js
 
-If you're running this locally in VS Code use the commands:
+7. If you're running this locally in VS Code use the commands:
 
     npm i
+
+// to install the node module
 
     node index.js
