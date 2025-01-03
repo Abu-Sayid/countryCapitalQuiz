@@ -5,7 +5,7 @@ Features:
 
 Score tracking and feedback at the end.
 
-To launch your react project in your browser,
+To launch the project in your browser,
 
 1. Install postgreSQL
 
