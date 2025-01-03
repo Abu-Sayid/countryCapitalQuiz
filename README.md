@@ -15,15 +15,15 @@ Create database world
 
 Run below query in Query tool to create capitals table:
 
-CREATE TABLE capitals(
+    CREATE TABLE capitals(
 
-    id SERIAL PRIMARY KEY,
+        id SERIAL PRIMARY KEY,
 
-    country VARCHAR(45),
+        country VARCHAR(45),
 
-    capital VARCHAR(45),
+        capital VARCHAR(45),
 
-)
+    );
 
 Import capitals.csv with Header toggled on 
 
@@ -31,6 +31,6 @@ Download Node.js
 
 If you're running this locally in VS Code use the commands:
 
-npm i
+    npm i
 
-node index.js
+    node index.js
