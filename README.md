@@ -15,15 +15,15 @@ To launch your react project in your browser,
 
 4. Run below query in Query tool to create capitals table:
 
-    CREATE TABLE capitals(
+        CREATE TABLE capitals(
 
-        id SERIAL PRIMARY KEY,
+            id SERIAL PRIMARY KEY,
 
-        country VARCHAR(45),
+            country VARCHAR(45),
 
-        capital VARCHAR(45),
+            capital VARCHAR(45),
 
-    );
+        );
 
 5. Import capitals.csv with Header toggled on
 
@@ -31,7 +31,7 @@ To launch your react project in your browser,
 
 7. If you're running this locally in VS Code use the commands:
 
-    npm i
+        npm i
 
 // to install the node module
 
